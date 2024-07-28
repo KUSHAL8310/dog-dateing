@@ -1,0 +1,160 @@
+body{
+  font-family: "monsarrat";
+  text-align: center !important;
+}
+#title{
+    background-color: #ff4c68;
+    color: #fff;
+}
+.container {
+    padding: 3% 15%;
+}
+.heading1{
+    padding-top: 2rem;
+    font-family: "Montserrat";
+    font-weight: 800;
+    font-size: 4rem;
+    font-style: normal;
+    line-height: 1.5;
+    text-align: left;
+   
+  }
+  .dog{
+    
+    transform: rotate(20deg);
+    width:350px;
+    position: relative;
+    top:130px;
+    z-index: 0;
+  }
+  .navbar-brand{
+   font-family:"Ubuntu";
+   font-size: 3rem;
+   font-weight: 900;
+  }
+  
+  .navbar{
+    padding-bottom: 4rem;
+  }
+  
+  .button {
+    margin: 3% 3% 4% 0%;
+}
+/* features settings */
+
+#features {
+  padding: 7% 15%;
+  position: relative;
+  background-color: #fff;
+  z-index: 1;
+  
+}
+.feature-box{
+ 
+  padding:5% !important;
+  
+}
+.h2{
+  font-family: "Montserrat";
+  font-size: 3.5rem !important;
+  font-weight: bolder !important;
+  font-style: normal;
+  color: #fff;
+  
+  line-height:1 ;
+  padding-top: 20px;
+}
+.plan{
+  font-family: "Montserrat";
+  font-size: 2.5rem;
+  font-weight: bolder;
+
+}
+.h3 {
+  margin-top: 0 ;
+  margin-bottom: .5rem;
+  font-weight: bolder !important; 
+  line-height: 1.2;
+  color: var(--bs-heading-color);
+}
+.fetu{
+  padding-bottom: 5px;
+}
+.fetu:hover{
+  color: #ff4c68 !important;
+}
+
+#testimonials{
+ 
+  padding-top: 10px;
+  background-color: #ff4c68;
+  
+  color: #fff;
+  font-family: "Montserrat";
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+.views{
+  padding-left: 15%;
+  padding-right: 15%;
+}
+.carousel-indicators{
+  position: relative;top: 310px;
+}
+.testimonial-image{
+  border-radius: 100%;
+  width: 8%;
+  padding-bottom: 10px;
+
+}
+#press{
+  background-color: #ff4c68;
+  padding-bottom: 10%;
+  
+}
+.press-img{
+  width: 200px;
+  margin-left: 50px;
+  padding-top: 50px;
+}
+.card{
+  height: 500px;
+}
+
+#footer{
+  background-color: #ff4c68;
+ 
+color: #fff;
+}
+h5{
+  font-family: "Montserrat";
+  font-size: 3.5rem !important;
+  font-weight: bolder !important;
+  padding-top: 50px;
+}
+.copy{
+  background-color: #fff;
+  
+  padding-top: 50px;
+}
+.copyright{
+  font-family: "Montserrat";
+  font-size: 1rem ;
+  padding-bottom: 50px;
+}
+.social{
+  margin: 20px 10px;
+}
+@media (max-width:980px){
+
+
+  .dog{
+    position: static;
+    transform: rotate(0);
+  }
+}
+@media (max-width:990px){
+.heading1{
+  text-align: center;
+}
+}
